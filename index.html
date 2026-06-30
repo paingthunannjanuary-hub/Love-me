@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Do You Love Me?</title>
+</head>
+<body>
+<h1>Do You Love Me? ❤️</h1>
+
+<button onclick="yes()">YES ❤️</button>
+<button id="no" onmouseover="move()">NO 💔</button>
+
+<script>
+function yes(){
+alert("❤️ I Love You Too ❤️");
+}
+
+function move(){
+let btn=document.getElementById("no");
+btn.style.position="absolute";
+btn.style.left=Math.random()*300+"px";
+btn.style.top=Math.random()*500+"px";
+}
+</script>
+
+</body>
+</html>
